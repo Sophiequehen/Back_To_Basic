@@ -13,10 +13,7 @@ gulp.task('sass', function() {
       includePaths: 'assets/sass/vendor',
 
     })
-      .on('error', $.sass.logError))
-    .pipe($.autoprefixer({
-      browsers: ['last 2 versions', 'ie >= 9']
-    }))
+    .on('error', $.sass.logError))
     .pipe(gulp.dest('public/css'))
     .pipe(browserSync.stream());
 });
