@@ -10,6 +10,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
 @font-face {
   font-family: 'FontAwesome';
@@ -153,8 +154,7 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  -webkit-filter: none;
-          filter: none; }
+  filter: none; }
 
 .fa-stack {
   position: relative;
@@ -2335,6 +2335,112 @@
   overflow: visible;
   clip: auto; }
 
+/*@import 'vendor/celia';*/
+/*** Colors ***/
+/*** Fonts ***/
+/**** website ***/
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+/*** Header - nav - nico - start ***/
+nav.menu {
+  height: 60px;
+  width: 100%;
+  background: #21314D;
+  margin: 0; }
+
+.centermenu {
+  width: 68%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+ul {
+  margin: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end; }
+
+.logoNav {
+  background: url(https://assets.trainline.eu/assets/images/trainline-logo-white-8f87ae08035d6750c1a5e836909ecd1a.svg) left center no-repeat;
+  width: 95px;
+  height: 100%; }
+
+.btnNav1 {
+  background-color: #01aa91;
+  border: none;
+  margin: 15px 0;
+  margin-right: 10px;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 20px;
+  display: inline-block;
+  line-height: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif; }
+
+a.btnNav1:hover {
+  background: #059E87; }
+
+.headerlink {
+  width: 70px;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+.headerlink {
+  color: white;
+  height: 100%;
+  padding: 20px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px; }
+
+a.headerlink:hover {
+  background: #20303b;
+  height: 30%; }
+
+.rightnav {
+  padding-left: 15px; }
+
+.fondbtn {
+  border: 2px solid #C0C9CC;
+  width: 90%;
+  border-radius: 4px;
+  margin-top: 60%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.15;
+  padding: 1px; }
+
+.fondbtn:hover {
+  border: 2px solid white; }
+
+#euro {
+  margin-top: 59%;
+  min-width: 24px;
+  min-height: 16px;
+  text-align: center;
+  padding-top: 5px; }
+
+a.btnNav2 {
+  color: white; }
+
+/*@import 'vendor/sophie';
+@import 'vendor/tristan';*/
 /**
 |
 | components
@@ -2343,7 +2449,9 @@
 /**
 |    temp
 */
-body {
-  background-color: #212121; }
-  body h1 {
-    color: #dedede; }
+/*body{
+	background-color: red;
+	h1{
+		color: #dedede;
+	}
+}*/
