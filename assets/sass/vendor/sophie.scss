@@ -1,0 +1,294 @@
+
+*{font-family: Raleway, sans-serif;
+}
+
+input {
+	border: 1px solid silver;
+}
+
+input:focus{
+	border: 1px solid rgb(1, 195, 167);
+}
+
+.sophie{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+/*----------------------CONTAINERFORM---------------------------*/
+
+.containerform {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	width: 458.91px;
+	height: 460px;
+	border-radius: 5px;
+
+}
+
+.containerform h1 {
+	color: #293133;
+	font-weight: 60;
+	font-size: 110%;
+	margin-left: 9%;
+
+}
+
+.form{
+	/*background-color: red;*/
+	display: flex;
+	justify-content: center;
+	border-color: silver;
+	width: 100%;
+	height: 350px;
+}
+
+.entrees{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+	border-radius: 5px;
+	width: 326.91px;
+	height: 42px;
+	padding: 11px, 0px, 11px, 35px;
+}
+
+.un{
+	border-bottom-color: white;
+	border-radius: 5px 5px 0 0;
+	background-image: url(https://assets.trainline.eu/assets/images/from-793fd74a5d09b687beb849fab15ae7a6.svg);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+	background-opacity: 10%;
+	/*margin-top: 2%;
+	margin-left: 2%;*/
+} 
+
+.deux{
+	border-radius: 0 0 5px 5px;
+	background-image: url(https://assets.trainline.eu/assets/images/from-793fd74a5d09b687beb849fab15ae7a6.svg);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+} 
+
+.trois{
+	border-bottom-color: white;
+	border-radius: 5px 5px 0 0;
+	background-image: url(https://assets.trainline.eu/assets/images/calendar-outward-021f4ddf731281274d7726a793a08a79.svg);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+
+}
+
+.quatre{
+	border-radius: 0 0 5px 5px;
+	background-image: url(https://assets.trainline.eu/assets/images/calendar-inward-5d0aa59596158d156fcfa9e846b93e52.svg);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+} 
+
+.cinq{
+	background-image: url(https://assets.trainline.eu/assets/images/passenger-47004cd84d9b731383854ab84bf01f56.svg);
+	background-repeat: no-repeat;
+	background-position: 11px center;
+}
+
+.entrees.formhaut{
+	margin-top: 5%;
+	color: silver;
+}
+
+.entrees.formhaut.cinq{
+	margin-top: 1%;
+}
+
+.entrees input{
+	width: 10px;
+	height: 10px;
+}
+
+.entrees{
+	padding-left: 10%;
+}
+
+.adulte{
+	color: #293133;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.adulte button{
+	display: block;
+	margin-right: 11%;
+	margin-top: 1%;
+	border: 1px solid silver;
+	border-radius: 0px 5px 5px 0px;
+	border-left-color: white; 
+	width: 47px;
+	height: 46px;
+	font-size: 35px;
+	background-color: white;
+	color: rgb(1, 195, 167);
+}
+
+.adulte button:hover{
+	cursor: pointer;
+}
+
+.adulte input{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.basdediv{
+	display: flex;
+	justify-content: space-around;
+	color: #293133;
+	margin-top: -8%;
+
+}
+
+.basdediv button{
+	width: 180px;
+	height: 41.5333px;
+	border-radius: 4.3px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(1, 195, 167);
+	border-color-right: rgb(1, 195, 167);
+	border-color-top: rgb(1, 195, 167);
+	border-color-left: rgb(1, 195, 167);
+	border-bottom-color: rgb(1, 144, 124);
+	color: white;
+}
+
+.basdediv button:hover{
+	background-color: rgb(1, 144, 124);
+	cursor: pointer;
+}
+
+.basdediv p{
+	color: rgb(1, 144, 124);
+	font-size: 13.05px;
+}
+
+.basdediv p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+/*----------------------CONTAINERPLUS---------------------------*/
+
+.containerplus {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 458.91px;
+	height: 460px;
+	border-radius: 5px;
+	margin-left: 2%;
+
+}
+
+.plushaut{
+	width: 100%;
+	height: 61px;
+	background-color: rgb(33, 49, 77);
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 5px 5px 0 0;
+}
+
+.plushaut p{
+	margin-left: 10%;
+}
+
+.contenuplus{
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+
+.one, .two, .three{
+	margin-top: -50px;
+}
+
+.iconprice{
+	width: 40px;
+	height: 40px;
+	margin-left: 8%;
+	margin-top: 40px;
+	border-radius: 50%;
+	background-color: rgb(33, 49, 77);
+	background-image: url("https://assets.trainline.eu/assets/images/open-home/icons/icon-tag-white-db66a5509c672b244e93ffbadd28b873.svg");
+	background-repeat: no-repeat;
+	background-position: 11px center;
+}
+
+.contenutexteplus{
+	/*background-color: red;*/
+	width: 320px;
+	margin-top: 40px;
+	padding-left: 11px;
+}
+
+
+.titreplus{
+	margin-top: -3%;
+	color: rgb(1, 195, 167);
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.texteplus{
+	margin-top: -3%;
+	color: rgb(50, 62, 66);
+	font-size: 16px;
+	line-height: 23.8px;
+}
+
+.distrib{
+	display: flex;
+	justify-content: center;
+}
+
+.ligneleft{
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 100px;
+	height: 1px;
+	background-color: rgb(140, 157, 161);
+}
+
+.ligneright{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 100px;
+	height: 1px;
+	background-color: rgb(140, 157, 161);
+}
+
+.distrib p{
+	color: rgb(140, 157, 161);
+	font-family: SourceSansPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16.1px;
+}
+
+.pluslogos{
+	width: 100%;
+	display: flex;
+	/*padding-left: 15px;*/
+	justify-content: center;
+}
+
+.pluslogos img{
+	margin-left: 25px;
+}
