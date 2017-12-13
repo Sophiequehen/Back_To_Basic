@@ -11,6 +11,7 @@
 /* FONT PATH
  * -------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
 @font-face {
   font-family: 'FontAwesome';
@@ -2346,296 +2347,431 @@ html, body {
   font-family: "Source Sans Pro", sans-serif; }
 
 /*** image de fond du site ***/
-.coverfond {
+#nicowork {
+  /*** Header - nav - nico - start ***/
+  /**** FIN de la nav / DEBUT de headerTitle ***/
+  /***** Fin du HeaderTitle / debut de la div avec les marques****/
+  /*** Partie des 3 images + text ***/
+  /****** Fin des 3 images+text / Début de comment ça marche ? ***/ }
+  #nicowork .coverfond {
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url("https://sophiequehen.github.io/Back_To_Basic/public/images/train.jpg"); }
+  #nicowork nav.menu {
+    height: 60px;
+    width: 100%;
+    background: #21314D;
+    margin: 0; }
+  #nicowork .centermenu {
+    width: 68%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+  #nicowork ul {
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; }
+  #nicowork .logoNav {
+    background: url(https://assets.trainline.eu/assets/images/trainline-logo-white-8f87ae08035d6750c1a5e836909ecd1a.svg) left center no-repeat;
+    width: 95px;
+    height: 100%; }
+  #nicowork .btnNav1 {
+    background-color: #01aa91;
+    border: none;
+    margin: 15px 0;
+    margin-right: 10px;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 20px;
+    display: inline-block;
+    line-height: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif; }
+  #nicowork a.btnNav1:hover {
+    background: #059E87; }
+  #nicowork .headerlink {
+    width: 70px;
+    text-align: center; }
+  #nicowork a {
+    text-decoration: none; }
+  #nicowork li {
+    list-style-type: none; }
+  #nicowork .headerlink {
+    color: white;
+    height: 100%;
+    padding: 20px 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px; }
+  #nicowork a.headerlink:hover {
+    background: #20303b;
+    height: 30%; }
+  #nicowork .rightnav {
+    padding-left: 15px; }
+  #nicowork .fondbtn {
+    border: 2px solid #C0C9CC;
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 60%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.15;
+    padding: 1px; }
+  #nicowork .fondbtn:hover {
+    border: 2px solid white; }
+  #nicowork #euro {
+    margin-top: 59%;
+    min-width: 24px;
+    min-height: 16px;
+    text-align: center;
+    padding-top: 5px; }
+  #nicowork a.btnNav2 {
+    color: white; }
+  #nicowork .headertitle {
+    width: 70%;
+    margin: auto; }
+  #nicowork h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    margin: 1em 0 0;
+    text-shadow: 0 1px 4px rgba(48, 50, 58, 0.6); }
+  #nicowork h2 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 400;
+    margin: .3em 0;
+    font-size: 21px;
+    text-shadow: 0 0 1px rgba(48, 50, 58, 0.6), 0 1px 1px rgba(48, 50, 58, 0.6);
+    line-height: 1.15; }
+  #nicowork .sophiediv {
+    height: 544px;
+    width: 100%;
+    /*	background: white;*/ }
+  #nicowork .positionbottom {
+    margin-bottom: 0; }
+  #nicowork .headerbottom {
+    height: 50px;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    background: white;
+    padding: 25px 0px;
+    text-align: center; }
+  #nicowork h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8C8A8C;
+    font-family: "Source Sans Pro", sans-serif; }
+  #nicowork .marquestrain {
+    width: 70%;
+    height: 200px;
+    /*	background: red;*/
+    margin: auto;
+    margin-top: 800px;
+    padding-top: 30px; }
+  #nicowork .marquestop {
+    width: 75%;
+    height: 42px;
+    /*	background: blue;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  #nicowork .marquesbot {
+    width: 65%;
+    height: 30px;
+    /*	background: green;*/
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  #nicowork img.marqueslogo {
+    height: 30px; }
+  #nicowork img.maqueslogosmall {
+    height: 20px; }
+  #nicowork .homedescription {
+    margin: 100px 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center; }
+  #nicowork p.hometitle {
+    font-size: 32px;
+    color: #21314D;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 10px; }
+  #nicowork p.hometexte {
+    font-size: 19px;
+    line-height: 1.5em;
+    color: #8C8A8C;
+    width: 100%; }
+  #nicowork p.hometextecenter {
+    margin: auto;
+    text-align: center;
+    width: 65%; }
+  #nicowork .TextImagex3 {
+    margin-top: 200px;
+    background: #F5F6F7; }
+  #nicowork .TextImageD {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; }
+  #nicowork .TextImageG {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; }
+  #nicowork .separation {
+    width: 50%;
+    height: 380px; }
+  #nicowork .pub {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #nicowork #pub1 {
+    background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg); }
+  #nicowork #pub2 {
+    background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg); }
+  #nicowork #pub3 {
+    background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg); }
+  #nicowork .pubdescription {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 30%;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: middle; }
+  #nicowork .CCM {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 100px;
+    background: url(https://assets.trainline.eu/assets/images/open-home/dots-pattern-9924c5c6be38a8d865f151c97c18d898.png) #fff; }
+  #nicowork .CCMcenter {
+    width: 70%;
+    margin: auto; }
+  #nicowork .paiement {
+    width: 50%;
+    border-right: 2px solid #ddd; }
+  #nicowork .CCMG {
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+  #nicowork .icon-cards {
+    margin-left: 50px; }
+  #nicowork p.ou {
+    margin: auto;
+    margin-left: 10%; }
+  #nicowork .icon-paypal {
+    margin: auto;
+    margin-right: 50px;
+    width: 110px;
+    height: 34px; }
+
+/*@import 'vendor/sophie';*/
+footer #container1 {
   width: 100%;
-  height: 800px;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  background-image: url("https://sophiequehen.github.io/Back_To_Basic/public/images/train.jpg"); }
-
-/*** Header - nav - nico - start ***/
-nav.menu {
-  height: 60px;
-  width: 100%;
-  background: #21314D;
-  margin: 0; }
-
-.centermenu {
-  width: 68%;
-  margin: auto;
-  height: 100%;
-  display: flex;
-  justify-content: space-between; }
-
-ul {
-  margin: 0;
-  width: 60%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-end; }
-
-.logoNav {
-  background: url(https://assets.trainline.eu/assets/images/trainline-logo-white-8f87ae08035d6750c1a5e836909ecd1a.svg) left center no-repeat;
-  width: 95px;
-  height: 100%; }
-
-.btnNav1 {
-  background-color: #01aa91;
-  border: none;
-  margin: 15px 0;
-  margin-right: 10px;
-  color: white;
-  border-radius: 4px;
-  padding: 8px 20px;
-  display: inline-block;
-  line-height: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 13px;
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif; }
-
-a.btnNav1:hover {
-  background: #059E87; }
-
-.headerlink {
-  width: 70px;
-  text-align: center; }
-
-a {
-  text-decoration: none; }
-
-li {
-  list-style-type: none; }
-
-.headerlink {
-  color: white;
-  height: 100%;
-  padding: 20px 0px;
+  height: 380px;
+  padding: 40px 0;
+  background-color: #F5F5F5;
+  font-size: 12px;
+  box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
+  overflow-x: visible; }
+
+footer #column {
+  display: flex;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+footer .spacer {
+  width: 165px;
+  height: 60px; }
+
+footer h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 165px;
+  height: 35px;
+  padding-top: 12px;
+  color: #3367ab;
+  font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase;
-  font-size: 13px; }
-
-a.headerlink:hover {
-  background: #20303b;
-  height: 30%; }
-
-.rightnav {
-  padding-left: 15px; }
-
-.fondbtn {
-  border: 2px solid #C0C9CC;
-  width: 90%;
-  border-radius: 4px;
-  margin-top: 60%;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1.15;
-  padding: 1px; }
-
-.fondbtn:hover {
-  border: 2px solid white; }
-
-#euro {
-  margin-top: 59%;
-  min-width: 24px;
-  min-height: 16px;
-  text-align: center;
-  padding-top: 5px; }
-
-a.btnNav2 {
-  color: white; }
-
-/**** FIN de la nav / DEBUT de headerTitle ***/
-.headertitle {
-  width: 70%;
-  margin: auto; }
-
-h1 {
-  font-size: 40px;
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-  color: white;
-  margin: 1em 0 0;
-  text-shadow: 0 1px 4px rgba(48, 50, 58, 0.6); }
-
-h2 {
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-  color: white;
-  font-weight: 400;
-  margin: .3em 0;
-  font-size: 21px;
-  text-shadow: 0 0 1px rgba(48, 50, 58, 0.6), 0 1px 1px rgba(48, 50, 58, 0.6);
-  line-height: 1.15; }
-
-.sophiediv {
-  height: 544px;
-  width: 100%;
-  /*	background: white;*/ }
-
-.positionbottom {
-  margin-bottom: 0; }
-
-.headerbottom {
-  height: 50px;
-  width: 100%;
-  border-radius: 6px 6px 0 0;
-  background: white;
-  padding: 25px 0px;
-  text-align: center; }
-
-h3 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 400;
-  color: #8C8A8C;
-  font-family: "Source Sans Pro", sans-serif; }
-
-/***** Fin du HeaderTitle / debut de la div avec les marques****/
-.marquestrain {
-  width: 70%;
-  height: 200px;
-  /*	background: red;*/
-  margin: auto;
-  margin-top: 800px;
-  padding-top: 30px; }
-
-.marquestop {
-  width: 75%;
-  height: 42px;
-  /*	background: blue;*/
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.marquesbot {
-  width: 65%;
-  height: 30px;
-  /*	background: green;*/
-  margin: auto;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-img.marqueslogo {
-  height: 30px; }
-
-img.maqueslogosmall {
-  height: 20px; }
-
-.homedescription {
-  margin: 100px 0px;
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center; }
-
-p.hometitle {
-  font-size: 32px;
-  color: #21314D;
-  font-weight: 700;
-  margin: auto;
+  margin-top: 0;
   margin-bottom: 10px; }
 
-p.hometexte {
-  font-size: 19px;
-  line-height: 1.5em;
-  color: #8C8A8C;
-  width: 100%; }
-
-p.hometextecenter {
-  margin: auto;
-  text-align: center;
-  width: 65%; }
-
-/*** Partie des 3 images + text ***/
-.TextImagex3 {
-  margin-top: 200px;
-  background: #F5F6F7; }
-
-.TextImageD {
+footer ul {
+  list-style-type: none;
   margin: 0;
-  display: flex;
-  justify-content: flex-start; }
-
-.TextImageG {
-  margin: 0;
-  display: flex;
-  justify-content: flex-end; }
-
-.separation {
-  width: 50%;
-  height: 380px; }
-
-.pub {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-#pub1 {
-  background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg); }
-
-#pub2 {
-  background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg); }
-
-#pub3 {
-  background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg); }
-
-.pubdescription {
-  font-family: "Source Sans Pro", sans-serif;
-  width: 30%;
+  padding: 0;
   text-align: left;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
-  vertical-align: middle; }
+  /*line-height: 20px;*/
+  font-size: 12px;
+  box-sizing: border-box; }
 
-/****** Fin des 3 images+text / Début de comment ça marche ? ***/
-.CCM {
-  text-align: center;
-  padding-top: 80px;
-  margin-bottom: 100px;
-  background: url(https://assets.trainline.eu/assets/images/open-home/dots-pattern-9924c5c6be38a8d865f151c97c18d898.png) #fff; }
+footer li {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #3367ab; }
 
-.CCMcenter {
-  width: 70%;
-  margin: auto; }
+footer p {
+  width: 165px;
+  height: 72px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px; }
 
-.paiement {
-  width: 50%;
-  border-right: 2px solid #ddd; }
+footer a {
+  list-style-type: none;
+  text-decoration: none; }
 
-.CCMG {
+footer .and {
+  color: #B2B2B2; }
+
+footer .col {
+  width: 16.67%;
+  height: 300px; }
+
+footer .app {
+  color: #757575;
+  width: 16.67%;
+  height: 210px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.15; }
+
+footer .trainline {
+  background-image: url(https://assets.trainline.eu/assets/images/trainline-logo-cf635433ef235d4f4eb00da841ad174c.svg);
+  width: 85px;
+  height: 30px; }
+
+footer .icons {
+  width: 165px;
+  height: 70px; }
+
+footer .icon {
+  width: 165px;
+  height: 35px; }
+
+footer .apple {
+  background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/app_store-982918c20bc831835da249d342f31bbd.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 165px;
+  height: 35px;
+  margin: 4px 0; }
+
+footer .google {
+  background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/google_play-5397aa8a86e85cf8920c5580245fd572.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 165px;
+  height: 35px;
+  margin: 4px 0; }
+
+footer #container2 {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  padding: 48px 0 30px;
+  background-color: #FFFFFF;
+  line-height: 1.15;
+  font-family: "Source Sans Pro", sans-serif; }
+
+footer #footerbas {
   display: flex;
   justify-content: space-between;
-  align-content: center; }
+  width: 1170px;
+  height: 32px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: #757575; }
 
-.icon-cards {
-  margin-left: 50px; }
+footer .bas {
+  display: flex;
+  width: 33.3333%;
+  height: 32px;
+  line-height: 32px; }
 
-p.ou {
-  margin: auto;
-  margin-left: 10%; }
+footer h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline;
+  padding-right: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333; }
 
-.icon-paypal {
-  margin: auto;
-  margin-right: 50px;
-  width: 110px;
-  height: 34px; }
+footer .fb {
+  width: 47px; }
 
-/*@import 'vendor/sophie';
-@import 'vendor/tristan';*/
+footer .facebook {
+  background-image: url(https://assets.trainline.eu/assets/images/footer/seo/facebook-845e0f46ff9016203d5e6786a33396f2.svg);
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  border-style: none;
+  padding-right: 12px;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+footer .twitter {
+  background-image: url(https://assets.trainline.eu/assets/images/footer/seo/twitter-e23662441d4b97c1639c49bb44f7388a.svg);
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  border-style: none;
+  padding-right: 12px;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+footer .bass {
+  display: flex;
+  width: 14%;
+  height: 32px;
+  line-height: 32px;
+  float: right;
+  padding-top: 3px;
+  padding-right: 25px; }
+
+footer .applepay {
+  background-image: url(https://assets.trainline.eu/assets/images/footer/seo/apple-pay-logo-9ae0cfc509e5cdfb136913a153b7043e.svg);
+  width: 52px;
+  height: 25px; }
+
+footer .paypal {
+  background-image: url(https://assets.trainline.eu/assets/images/footer/seo/paypal-logo-cc1f95a91a1f56b951a3b6d89c8a9e86.svg);
+  width: 83px;
+  height: 21px;
+  margin-left: 27px; }
+
 /**
 |
 | components
@@ -2644,9 +2780,3 @@ p.ou {
 /**
 |    temp
 */
-/*body{
-	background-color: red;
-	h1{
-		color: #dedede;
-	}
-}*/

@@ -19,15 +19,20 @@ gulp.task('sass', function() {
 });
 
 gulp.task('uglify', function () {
-  
+
         gulp.src('assets/js/app.js'),
         uglify(),
         gulp.dest('public/js/')
-    
-    
-  .pipe(browserSync.stream());
+    .pipe(browserSync.stream());
 });
 
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+});
 
 gulp.task('serve', ['sass', 'uglify'], function() {
     browserSync.init({
