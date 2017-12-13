@@ -2356,7 +2356,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  background-image: url("/images/train.jpg"); }
+  background-image: url("https://sophiequehen.github.io/Back_To_Basic/public/images/train.jpg"); }
 
 /*** Header - nav - nico - start ***/
 nav.menu {
