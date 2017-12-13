@@ -10,6 +10,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
@@ -2336,7 +2337,75 @@
   overflow: visible;
   clip: auto; }
 
-/*@import 'vendor/celia';*/
+@keyframes sponsors-anim {
+  from {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+
+@keyframes sponsors-unanim {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0.5; } }
+
+#celia_twittersection {
+  /*CSS général du bloc*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F6F7;
+  font-family: 'Source Sans Pro', sans-serif; }
+  #celia_twittersection p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: -0.3em;
+    font-size: 32px;
+    color: #21314D; }
+  #celia_twittersection p:nth-child(2) {
+    color: #8C8A8C;
+    text-align: center;
+    /*font-size: 1em;*/
+    font-size: 19px;
+    line-height: 1.5em; }
+  #celia_twittersection .morelove {
+    color: #2B7BB9;
+    font-family: 'Source Sans Pro';
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 35px; }
+  #celia_twittersection .morelove:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+  #celia_twittersection .tweetwrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+  #celia_twittersection .tweetwrapperslide {
+    display: none; }
+  #celia_twittersection .tweetbox {
+    width: 35%;
+    margin: 20px; }
+  #celia_twittersection .sponsors {
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    animation-name: sponsors-unanim;
+    animation-duration: 0.5s; }
+    #celia_twittersection .sponsors img {
+      height: 18px;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-bottom: 13px; }
+  #celia_twittersection .sponsors:hover {
+    animation-name: sponsors-anim;
+    animation-duration: 1s; }
+
 /*** Colors ***/
 /*** Fonts ***/
 /**** website ***/
