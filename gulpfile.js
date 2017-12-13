@@ -18,16 +18,20 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('uglify', function (cb) {
-  pump([
+gulp.task('uglify', function () {
         gulp.src('assets/js/app.js'),
         uglify(),
         gulp.dest('public/js/')
-    ],
-    cb
-  ).pipe(browserSync.stream());
+    .pipe(browserSync.stream());
 });
 
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+});
 
 gulp.task('serve', ['sass', 'uglify'], function() {
     browserSync.init({
@@ -39,5 +43,7 @@ gulp.task('serve', ['sass', 'uglify'], function() {
 		gulp.watch('assets/js/**/*.js', ['uglify']);
 		 gulp.watch("public/*.html").on('change', browserSync.reload);
 });
+
+
 
 gulp.task('default', ['serve']);
