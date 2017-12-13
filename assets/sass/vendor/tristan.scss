@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+	$fontnav : 'Source Sans Pro', sans-serif;
+
+#container1{
+	width: 1322px;
+	height: 380px;
+	padding: 40px 0;
+	background-color: #F5F5F5;
+	font-size: 12px;
+	box-sizing: border-box;
+	font-family: $fontnav;
+	overflow-x: visible;
+}
+
+#column{
+	display: flex;
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.spacer{
+	width: 165px;
+	height: 60px;
+}
+
+h4{
+	font-family: $fontnav;
+	width: 165px;
+	height: 35px;
+	padding-top: 12px;
+	color: #3367ab;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	/*line-height: 20px;*/
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+li{
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	color: #3367ab;
+}
+
+p{
+	width: 165px;
+	height: 72px;
+	font-family: $fontnav;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 8px;
+}
+
+a{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.and{
+	color: #B2B2B2;
+}
+
+.col{
+	width: 16.67%;
+	height: 300px;
+}
+
+.app{
+	color: #757575;
+	width: 16.67%;
+	height: 210px;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 1.15;
+}
+
+.trainline{
+	background-image: url(https://assets.trainline.eu/assets/images/trainline-logo-cf635433ef235d4f4eb00da841ad174c.svg);
+	width: 85px;
+	height: 30px;
+}
+
+.icons{
+	width: 165px;
+	height: 70px;
+}
+
+.icon{
+	width: 165px;
+	height: 35px;
+}
+
+.apple{
+	background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/app_store-982918c20bc831835da249d342f31bbd.svg);
+	background-repeat: no-repeat;
+    background-size: contain;
+	width: 165px;
+	height: 35px;
+	margin: 4px 0;
+}
+
+.google{
+	background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/google_play-5397aa8a86e85cf8920c5580245fd572.svg);
+	background-repeat: no-repeat;
+    background-size: contain;
+	width: 165px;
+	height: 35px;
+	margin: 4px 0;
+}
+
+#container2{
+	width: 1322px;
+	height: 50px;
+	font-size: 14px;
+	padding: 48px 0 30px;
+	background-color: #FFFFFF;
+	line-height: 1.15;
+	font-family: $fontnav;
+}
+
+#footerbas{
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	height: 32px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	color: #757575;
+}
+
+.bas{
+	display: flex;
+	width: 33.3333%;
+	height: 32px;
+	line-height: 32px;
+}
+
+.follow{
+	
+}
+
+h5{
+	font-family: $fontnav;
+	display: inline;
+	padding-right: 18px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+
+.fb{
+	width: 47px;
+}
+
+.facebook{
+	background-image: url(https://assets.trainline.eu/assets/images/footer/seo/facebook-845e0f46ff9016203d5e6786a33396f2.svg);
+	height: 32px;
+	width: 32px;
+	vertical-align: middle;
+	border-style: none;
+	padding-right: 12px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.twitter{
+	background-image: url(https://assets.trainline.eu/assets/images/footer/seo/twitter-e23662441d4b97c1639c49bb44f7388a.svg);
+	height: 32px;
+	width: 32px;
+	vertical-align: middle;
+	border-style: none;
+	padding-right: 12px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.bass{
+	display: flex;
+	width: 14%;
+	height: 32px;
+	line-height: 32px;
+	float: right;
+    padding-top: 3px;
+    padding-right: 25px;
+}
+
+.applepay{
+	background-image: url(https://assets.trainline.eu/assets/images/footer/seo/apple-pay-logo-9ae0cfc509e5cdfb136913a153b7043e.svg);
+	width: 52px;
+	height: 25px;
+}
+
+.paypal{
+	background-image: url(https://assets.trainline.eu/assets/images/footer/seo/paypal-logo-cc1f95a91a1f56b951a3b6d89c8a9e86.svg);
+	width: 83px;
+	height: 21px;
+	margin-left: 27px;
+}
