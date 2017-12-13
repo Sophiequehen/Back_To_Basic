@@ -1,0 +1,111 @@
+
+$mainbgcolor: #F5F6F7;
+$titlecolor: #21314D;
+$bluelink: #2B7BB9;
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,900i');
+
+
+@mixin bluetitle() {
+	font-weight: bold;
+	margin-bottom: -0.3em;
+	font-size: 32px;
+	color: #21314D
+}
+
+@mixin subtitle() {
+	color: #8C8A8C;
+	text-align: center;
+	/*font-size: 1em;*/
+
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+@keyframes sponsors-anim {
+	from {opacity: 0.5;}
+	to {opacity: 1;}
+} 
+
+@keyframes sponsors-unanim {
+	from {opacity: 1;}
+	to {opacity: 0.5;}
+} 
+
+
+
+
+#celia_twittersection {
+
+	/*CSS général du bloc*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $mainbgcolor;
+	font-family: 'Source Sans Pro', sans-serif;
+
+	p:nth-child(1) {
+		@include bluetitle();
+	}
+
+	p:nth-child(2) {
+		@include subtitle();
+	}
+
+	.morelove {
+		color: $bluelink;
+		font-family: 'Source Sans Pro';
+		font-size: 0.8em;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
+
+	.morelove:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+
+	.tweetwrapper {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.tweetwrapperslide {
+		display: none;
+	}
+
+	.tweetbox {
+		width: 35%;
+		margin: 20px;
+	}
+
+	.sponsors {
+		background-color: white;
+		opacity: 0.5;
+		width: 100%;
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 30px;
+		animation-name: sponsors-unanim;
+		animation-duration: 0.5s;
+
+
+		img {
+			height: 18px;
+			margin-right: 15px;
+			margin-left: 15px;
+			margin-bottom: 13px;
+		}
+	}
+
+	.sponsors:hover {
+		animation-name: sponsors-anim;
+		animation-duration: 1s;
+	}
+}
+
