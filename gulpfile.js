@@ -18,14 +18,21 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('uglify', function (cb) {
-  pump([
+gulp.task('uglify', function () {
+  
         gulp.src('assets/js/app.js'),
         uglify(),
         gulp.dest('public/js/')
-    ],
-    cb
-  ).pipe(browserSync.stream());
+    
+  .pipe(browserSync.stream());
+});
+
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
 });
 
 
