@@ -2335,10 +2335,10 @@
   overflow: visible;
   clip: auto; }
 
-/*@import 'vendor/celia';
-@import 'vendor/nico';
-@import 'vendor/sophie';*/
-#container1 {
+/*@import 'vendor/celia';*/
+/*@import 'vendor/nico';*/
+/*@import 'vendor/sophie';*/
+footer #container1 {
   width: 1322px;
   height: 380px;
   padding: 40px 0;
@@ -2348,7 +2348,7 @@
   font-family: "Source Sans Pro", sans-serif;
   overflow-x: visible; }
 
-#column {
+footer #column {
   display: flex;
   width: 1170px;
   margin-right: auto;
@@ -2356,11 +2356,11 @@
   padding-left: 15px;
   padding-right: 15px; }
 
-.spacer {
+footer .spacer {
   width: 165px;
   height: 60px; }
 
-h4 {
+footer h4 {
   font-family: "Source Sans Pro", sans-serif;
   width: 165px;
   height: 35px;
@@ -2371,7 +2371,7 @@ h4 {
   margin-top: 0;
   margin-bottom: 10px; }
 
-ul {
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -2380,12 +2380,12 @@ ul {
   font-size: 12px;
   box-sizing: border-box; }
 
-li {
+footer li {
   margin-bottom: 10px;
   box-sizing: border-box;
   color: #3367ab; }
 
-p {
+footer p {
   width: 165px;
   height: 72px;
   font-family: "Source Sans Pro", sans-serif;
@@ -2393,18 +2393,18 @@ p {
   line-height: 18px;
   margin-bottom: 8px; }
 
-a {
+footer a {
   list-style-type: none;
   text-decoration: none; }
 
-.and {
+footer .and {
   color: #B2B2B2; }
 
-.col {
+footer .col {
   width: 16.67%;
   height: 300px; }
 
-.app {
+footer .app {
   color: #757575;
   width: 16.67%;
   height: 210px;
@@ -2414,20 +2414,20 @@ a {
   padding-right: 15px;
   line-height: 1.15; }
 
-.trainline {
+footer .trainline {
   background-image: url(https://assets.trainline.eu/assets/images/trainline-logo-cf635433ef235d4f4eb00da841ad174c.svg);
   width: 85px;
   height: 30px; }
 
-.icons {
+footer .icons {
   width: 165px;
   height: 70px; }
 
-.icon {
+footer .icon {
   width: 165px;
   height: 35px; }
 
-.apple {
+footer .apple {
   background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/app_store-982918c20bc831835da249d342f31bbd.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -2435,7 +2435,7 @@ a {
   height: 35px;
   margin: 4px 0; }
 
-.google {
+footer .google {
   background-image: url(https://assets.trainline.eu/assets/images/open-home/fr/google_play-5397aa8a86e85cf8920c5580245fd572.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -2443,7 +2443,7 @@ a {
   height: 35px;
   margin: 4px 0; }
 
-#container2 {
+footer #container2 {
   width: 1322px;
   height: 50px;
   font-size: 14px;
@@ -2452,7 +2452,7 @@ a {
   line-height: 1.15;
   font-family: "Source Sans Pro", sans-serif; }
 
-#footerbas {
+footer #footerbas {
   display: flex;
   justify-content: space-between;
   width: 1170px;
@@ -2464,13 +2464,13 @@ a {
   font-size: 14px;
   color: #757575; }
 
-.bas {
+footer .bas {
   display: flex;
   width: 33.3333%;
   height: 32px;
   line-height: 32px; }
 
-h5 {
+footer h5 {
   font-family: "Source Sans Pro", sans-serif;
   display: inline;
   padding-right: 18px;
@@ -2478,10 +2478,10 @@ h5 {
   font-weight: 400;
   color: #333; }
 
-.fb {
+footer .fb {
   width: 47px; }
 
-.facebook {
+footer .facebook {
   background-image: url(https://assets.trainline.eu/assets/images/footer/seo/facebook-845e0f46ff9016203d5e6786a33396f2.svg);
   height: 32px;
   width: 32px;
@@ -2491,7 +2491,7 @@ h5 {
   box-sizing: border-box;
   text-decoration: none; }
 
-.twitter {
+footer .twitter {
   background-image: url(https://assets.trainline.eu/assets/images/footer/seo/twitter-e23662441d4b97c1639c49bb44f7388a.svg);
   height: 32px;
   width: 32px;
@@ -2501,7 +2501,7 @@ h5 {
   box-sizing: border-box;
   text-decoration: none; }
 
-.bass {
+footer .bass {
   display: flex;
   width: 14%;
   height: 32px;
@@ -2510,12 +2510,12 @@ h5 {
   padding-top: 3px;
   padding-right: 25px; }
 
-.applepay {
+footer .applepay {
   background-image: url(https://assets.trainline.eu/assets/images/footer/seo/apple-pay-logo-9ae0cfc509e5cdfb136913a153b7043e.svg);
   width: 52px;
   height: 25px; }
 
-.paypal {
+footer .paypal {
   background-image: url(https://assets.trainline.eu/assets/images/footer/seo/paypal-logo-cc1f95a91a1f56b951a3b6d89c8a9e86.svg);
   width: 83px;
   height: 21px;
@@ -2529,7 +2529,3 @@ h5 {
 /**
 |    temp
 */
-body {
-  /*background-color: #212121;*/ }
-  body h1 {
-    color: #dedede; }
