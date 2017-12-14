@@ -47,4 +47,3 @@ gulp.task('serve', ['sass', 'uglify'], function() {
 });
 
 gulp.task('default', ['serve']);
-
