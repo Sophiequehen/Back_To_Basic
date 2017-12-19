@@ -2424,15 +2424,11 @@ html, body {
   /****** Fin des 3 images+text / Début de comment ça marche ? ***/ }
   #nicowork .coverfond {
     width: 100%;
-    height: 800px;
+    height: 50em;
     z-index: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
     background-image: url("https://sophiequehen.github.io/Back_To_Basic/public/images/train.jpg"); }
   #nicowork nav.menu {
     height: 60px;
@@ -2513,7 +2509,7 @@ html, body {
   #nicowork a.btnNav2 {
     color: white; }
   #nicowork .headertitle {
-    width: 70%;
+    width: 940px;
     margin: auto; }
   #nicowork h1 {
     font-size: 40px;
@@ -2535,8 +2531,6 @@ html, body {
     height: 544px;
     width: 100%;
     /*	background: white;*/ }
-  #nicowork .positionbottom {
-    margin-bottom: 0; }
   #nicowork .headerbottom {
     height: 50px;
     width: 100%;
@@ -2551,12 +2545,16 @@ html, body {
     color: #8C8A8C;
     font-family: "Source Sans Pro", sans-serif; }
   #nicowork .marquestrain {
-    width: 70%;
+    width: 940px;
     height: 200px;
     /*	background: red;*/
     margin: auto;
-    margin-top: 800px;
-    padding-top: 30px; }
+    margin-top: -100px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1; }
+  #nicowork .positionbottom {
+    z-index: 1; }
   #nicowork .marquestop {
     width: 75%;
     height: 42px;
@@ -2598,7 +2596,7 @@ html, body {
     text-align: center;
     width: 65%; }
   #nicowork .TextImagex3 {
-    margin-top: 200px;
+    margin-top: 300px;
     background: #F5F6F7; }
   #nicowork .TextImageD {
     margin: 0;
