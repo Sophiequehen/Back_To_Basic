@@ -2421,7 +2421,8 @@ html, body {
   /**** FIN de la nav / DEBUT de headerTitle ***/
   /***** Fin du HeaderTitle / debut de la div avec les marques****/
   /*** Partie des 3 images + text ***/
-  /****** Fin des 3 images+text / Début de comment ça marche ? ***/ }
+  /****** Fin des 3 images+text / Début de comment ça marche ? ***/
+  /****** Box pour Js *****/ }
   #nicowork .coverfond {
     width: 100%;
     height: 50em;
@@ -2654,6 +2655,26 @@ html, body {
     margin-right: 50px;
     width: 110px;
     height: 34px; }
+  #nicowork .sidebox {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0%;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 60;
+    /* Stay at the top */
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */ }
 
 * {
   font-family: Raleway, sans-serif; }

@@ -1,1 +1,1 @@
-!function(){console.log("hello world !");console.log("hello michel")}();
+!function(){console.log("hello world !");console.log("hello michel")}(),$(".headerlink").click(function(){$(".sidebox").css("width","50%")});
