@@ -10,5 +10,6 @@
 
 $( ".headerlink" ).click(function() {
   $('.sidebox').css('width','50%');
+  
 });
 

@@ -2667,8 +2667,7 @@ html, body {
     top: 60;
     /* Stay at the top */
     right: 0;
-    background-color: #111;
-    /* Black*/
+    background: white;
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 60px;
