@@ -8,10 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-
   "dependencies": {
-    "pump": "^2.0.0",
-
     "autoprefixer": "latest",
     "browser-sync": "latest",
     "gulp": "latest",
@@ -24,6 +21,5 @@
     "gulp-scss-lint": "latest",
     "gulp-uglify": "latest",
     "pump": "latest"
-
   }
 }
